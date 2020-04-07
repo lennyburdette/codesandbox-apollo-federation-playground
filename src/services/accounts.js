@@ -1,5 +1,5 @@
 const { gql } = require("apollo-server");
-const data = require("../fixtures/accounts");
+const data = require("../fixtures/users");
 
 const typeDefs = gql`
   type Query {
