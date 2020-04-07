@@ -1,0 +1,38 @@
+[
+  {
+    "body": "This book is great!",
+    "authorId": "1",
+    "authorUsername": "@ava",
+    "productUpc": "1"
+  },
+  {
+    "body": "I didn't like this book.",
+    "authorId": "1",
+    "authorUsername": "@ava",
+    "productUpc": "2"
+  },
+  {
+    "body": "Couldn't put it down",
+    "authorId": "1",
+    "authorIsername": "@ava",
+    "productUpc": "3"
+  },
+  {
+    "body": "Had me on the edge of my seat.",
+    "authorId": "2",
+    "authorUsername": "@bobby",
+    "productUpc": "1"
+  },
+  {
+    "body": "A deserted island book.",
+    "authorIid": "2",
+    "authorUsername": "@bobby",
+    "productUpc": "2"
+  },
+  {
+    "body": "Didn't care for it.",
+    "authorId": "2",
+    "authorUsername": "@bobby",
+    "productUpc": "3"
+  }
+]

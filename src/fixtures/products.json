@@ -1,0 +1,38 @@
+[
+  {
+    "upc": "1",
+    "name": "Dune",
+    "price": 999,
+    "rating": 4.7
+  },
+  {
+    "upc": "2",
+    "name": "The Left Hand of Darkness",
+    "price": 1599,
+    "rating": 4.3
+  },
+  {
+    "upc": "3",
+    "name": "1984",
+    "price": 1199,
+    "rating": 4.5
+  },
+  {
+    "upc": "4",
+    "name": "Neuromancer",
+    "price": 1399,
+    "rating": 4.2
+  },
+  {
+    "upc": "5",
+    "name": "Fahreinheit 451",
+    "price": 999,
+    "rating": 4.5
+  },
+  {
+    "upc": "6",
+    "name": "Starship Troopers",
+    "price": 799,
+    "rating": 4.5
+  }
+]
