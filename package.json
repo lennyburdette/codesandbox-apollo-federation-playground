@@ -1,20 +1,21 @@
 {
   "name": "apollo-federation-playground",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "@apollo/federation": "0.13.2",
-    "@apollo/gateway": "0.13.2",
-    "apollo-server": "2.11.0",
-    "graphql": "14.6.0",
+    "@apollo/federation": "0.14.0",
+    "@apollo/gateway": "0.14.0",
+    "apollo-server": "2.12.0",
+    "graphql": "15.0.0",
     "walk-sync": "2.0.2"
   },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "nodemon": "2.0.2"
   },
   "keywords": []
 }
