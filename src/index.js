@@ -1,6 +1,6 @@
 const { ApolloServer } = require("apollo-server");
 const { ApolloGateway, LocalGraphQLDataSource } = require("@apollo/gateway");
-const { buildFederatedSchema } = require("@apollo/federation");
+const { buildSubgraphSchema } = require("@apollo/federation");
 const walk = require("walk-sync");
 const {
   ApolloServerPluginLandingPageGraphQLPlayground,
@@ -14,7 +14,7 @@ const gateway = new ApolloGateway({
   debug: true,
   localServiceList,
   buildService: (service) => {
-    return new LocalGraphQLDataSource(buildFederatedSchema([service]));
+    return new LocalGraphQLDataSource(buildSubgraphSchema([service]));
   },
 });
 

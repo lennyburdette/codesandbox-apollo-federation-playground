@@ -8,10 +8,10 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "@apollo/federation": "0.33.6",
-    "@apollo/gateway": "0.43.1",
-    "apollo-server": "3.5.0",
-    "graphql": "16.0.1",
+    "@apollo/subgraph": "^0.1.4",
+    "@apollo/gateway": "^0.43.1",
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.7.2",
     "walk-sync": "3.0.0"
   },
   "devDependencies": {
