@@ -10,7 +10,7 @@
   "dependencies": {
     "@apollo/federation": "0.14.0",
     "@apollo/gateway": "0.14.0",
-    "apollo-server": "2.14.2",
+    "apollo-server": "2.25.3",
     "graphql": "15.0.0",
     "walk-sync": "2.0.2"
   },
